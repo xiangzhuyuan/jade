@@ -75,7 +75,7 @@
   - [html2jade](https://github.com/donpark/html2jade) converter
 
 <a name="a2"/>
-## Implementations
+## 对于下面语言的支持
 
   - [php](http://github.com/everzet/jade.php)
   - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)
@@ -84,9 +84,9 @@
   - [java](https://github.com/neuland/jade4j)
 
 <a name="a3"/>
-## Installation
+## 安装
 
-via npm:
+通过 npm:
 
 ```bash
 $ npm install jade
@@ -94,15 +94,15 @@ $ man jade
 ```
 
 <a name="a4"/>
-## Browser Support
+## 浏览器支持
 
- To compile jade to a single file compatible for client-side use simply execute:
+ 通过下面一条简单的命令,就能够把jade.js编译成一个支持客户端的单个文件:
 
 ```bash
 $ make jade.js
 ```
 
- Alternatively, if uglifyjs is installed via npm (`npm install uglify-js`) you may execute the following which will create both files. However each release builds these for you.
+ 或者, 如果安装了uglifyjs,通过npm (`npm install uglify-js`) 你可以运行下面的命令来生成所有的文件:
 
 ```bash
 $ make jade.min.js
