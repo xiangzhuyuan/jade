@@ -1,11 +1,11 @@
  [![Build Status](https://secure.travis-ci.org/visionmedia/jade.png)](http://travis-ci.org/visionmedia/jade)
 
-# Jade - template engine
+# Jade - 模板引擎
 
- Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)
- and implemented with JavaScript for [node](http://nodejs.org).
+ Jade是一个高性能的模板引擎,它的出现,受 [Haml](http://haml-lang.com)的影响比较大.
+ 是用Javascript实现的支持 [node](http://nodejs.org).
 
-## README Contents
+## README 目录
 
 - [Features](#a1)
 - [Implementations](#a2)
@@ -38,7 +38,7 @@
 - [License](#a18)
 
 <a name="a1"/>
-## Features
+## 特色
 
   - client-side support
   - great readability
